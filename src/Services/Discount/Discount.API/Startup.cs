@@ -44,7 +44,7 @@ namespace Discount.API
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Discount.API v1"));
             }
                  
-            app.UseRouting();
+            app.UseRouting();                                             
 
             app.UseAuthorization();                                                        
 
