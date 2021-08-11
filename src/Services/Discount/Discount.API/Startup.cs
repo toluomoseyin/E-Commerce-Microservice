@@ -51,7 +51,7 @@ namespace Discount.API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-            });
+            });                                                       
         }   
     }
 }                                    
