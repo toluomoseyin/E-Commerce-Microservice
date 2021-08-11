@@ -52,6 +52,6 @@ namespace Discount.API
             {
                 endpoints.MapControllers();
             });
-        }
+        }   
     }
 }                                 
